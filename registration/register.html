@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="container customized">
+        <form>
+            <div class="lbl">Register</div>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" class="form-control" id="name" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" id="pw" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label>Confirm password</label>
+                <input type="password" class="form-control" id="pw-conf" placeholder="Confirm password">
+            </div>
+            <p class="err" id="err"></p>
+            <div class="text-center">
+                <button type="button" class="btn btn-warning" onclick="register()">Register</button>
+            </div>
+        </form>
+    </div>
+    <script src="register.js"></script>
+</body>
+
+</html>

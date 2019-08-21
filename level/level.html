@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Choose difficulty</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="level.css">
+</head>
+
+<body>
+    <div class="container customized">
+        <h1 id="title" class="text-center">Welcome</h1>
+        <br/>
+        <h3 class="text-center">Please choose a difficulty:</h3>
+        <br/>
+        <div class="row" id="row">
+            <div class="col-4 text-center">
+                <button class="btn btn-secondary" type="button" id="easy" onclick="startGame(this.id)">Easy</button>
+            </div>
+            <div class="col-4 text-center">
+                <button class="btn btn-secondary" type="button" id="intermediate" onclick="startGame(this.id)">Intermediate</button>
+            </div>
+            <div class="col-4 text-center">
+                <button class="btn btn-secondary" type="button" id="hard" onclick="startGame(this.id)">Hard</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="level.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.customized {
+    width: 40%;
+    margin-top: 80px;
+}
+
+.lbl {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.err {
+    color: red;
+}
+
+body {
+    background-color: beige;
+}

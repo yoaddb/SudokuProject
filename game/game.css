@@ -1,0 +1,46 @@
+@import "../app.css";
+h3 {
+    margin-top: 80px;
+}
+
+table {
+    margin: 20px auto;
+}
+
+td {
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    text-align: center;
+}
+
+input {
+    height: 30px;
+    width: 30px;
+    border: 0;
+    -webkit-appearance: none;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none;
+}
+
+tr:nth-child(3n) {
+    border-bottom: solid;
+}
+
+td:nth-child(3n) {
+    border-right: solid;
+}
+
+td:first-child {
+    border-left: solid;
+}
+
+tr:first-child {
+    border-top: solid;
+}
